@@ -1,0 +1,60 @@
+// mixins
+@mixin genericFlex {
+    justify-content: space-between;
+    align-items: center;   
+    display: flex;
+}
+//tight Wrapper
+@mixin tightWrapper {
+    margin: auto;
+    height: 100%;
+    width: 60%;
+}
+//tight Wrapper
+@mixin largeWrapper {
+    margin: auto;
+    height: 100%;
+    width: 80%;
+}
+// color hover
+@mixin colorHover {
+    transform: scale(1.05);
+    color: crimson;
+    cursor: pointer;
+    opacity: 0.8;
+}
+// flex modal
+@mixin modalFlex {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+//modal generic
+@mixin modalGeneric {
+    background-color: rgba(0,0,0,0.5);
+    align-items: center;
+    visibility: hidden;
+    transition: 1.0s;
+    position: fixed;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+}
+//modal content 
+@mixin modalContent {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+}
+// position absolute
+@mixin positionAbsolute {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
