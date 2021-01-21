@@ -3,30 +3,21 @@
 <section class="first_section">
     <div class="wrapper">
         <div class="higher_first_section">
-            <img class="" src="img/Componente 5 – 1.png" alt="Brand_diamond_img">
+            <img class="brand_img" src="img/Componente 5 – 1.png" alt="Brand_diamond_img">
+        </div>
+        <div class="graphic_component">
+            <img class="first_component" src="img/Raggruppa -2@2x.png" alt="higher_graphic_component">
         </div>
         <div class="second_graphic_component">
-            <img src="img/Raggruppa -2@2x.png" alt="higher_graphic_component">
-        </div>
-    </div>
-    <div class="graphic_components_wrapper">
-        <div class="first_graphic_component">
-            <img src="" alt="">
-        </div>
-    </div>
-        <div class="first_section_left_block">
-            <img src="" alt="Credit_Card_img">
+            <img class="card_img" src="img/CARD_SCREEN.png" alt="credit_card">
         </div>
         <div class="first_section_right_block">
-            <div class="first_right_item">
-                <h2>investi</h2>
-                <h3>su te stesso</h3>
-                <h5>L&#39;unica carta di credito che trasforma buone azioni in denaro</h5>
-            </div>
-            <div class="first_right_item">
-                <button class="first_right_button"></button>
-            </div>
+            <h2>investi</h2>
+            <h3>su te stesso</h3>
+            <h5>L&#39;unica carta di credito che trasforma buone azioni in denaro</h5>
+            <button class="first_right_button">Scopri di più</button>
         </div>
+    </div>
     <div class="large_wrapper">
         <div class="first_right_icon">
             <img class="upper_arrow" src="img/Raggruppa 331@2x.png" alt="upper_arrow_icon">
