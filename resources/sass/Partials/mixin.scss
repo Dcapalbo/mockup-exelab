@@ -4,17 +4,39 @@
     align-items: center;   
     display: flex;
 }
+@mixin rightFlex {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
 //tight Wrapper
 @mixin tightWrapper {
     margin: auto;
     height: 100%;
     width: 60%;
 }
-//tight Wrapper
-@mixin largeWrapper {
+//generic Wrapper
+@mixin genericWrapper {
     margin: auto;
     height: 100%;
     width: 80%;
+}
+//large Wrapper
+@mixin midWrapper {
+    margin: auto;
+    height: 100%;
+    width: 90%;
+}
+//large Wrapper
+@mixin largeWrapper {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+@mixin graphicWrapper {
+    margin: left auto;
+    height: 100%;
+    width: 50%;
 }
 // color hover
 @mixin colorHover {

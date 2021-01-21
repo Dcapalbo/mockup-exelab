@@ -19,4 +19,34 @@ main {
   text-transform: capitalize;
 }
 
+.first_section {
+  background-color: #2D2D42;
+  width: 100%;
+}
+
+.first_section .wrapper {
+  margin: auto;
+  height: 100%;
+  width: 80%;
+  padding: 70px;
+}
+
+.first_section .large_wrapper {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.first_section .large_wrapper .upper_arrow {
+  width: 50px;
+}
+
+.first_section .second_graphic_component {
+  width: 50%;
+  height: 50%;
+}
 

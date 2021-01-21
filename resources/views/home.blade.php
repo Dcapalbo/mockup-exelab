@@ -1,27 +1,35 @@
 @extends('layout.app')
 @section('content')
 <section class="first_section">
-    <div class="higher_first_section">
-        <img src="" alt="Brand_diamond_img">
-    </div>
     <div class="wrapper">
+        <div class="higher_first_section">
+            <img class="" src="img/Componente 5 – 1.png" alt="Brand_diamond_img">
+        </div>
+        <div class="second_graphic_component">
+            <img src="img/Raggruppa -2@2x.png" alt="higher_graphic_component">
+        </div>
+    </div>
+    <div class="graphic_components_wrapper">
+        <div class="first_graphic_component">
+            <img src="" alt="">
+        </div>
+    </div>
         <div class="first_section_left_block">
             <img src="" alt="Credit_Card_img">
         </div>
         <div class="first_section_right_block">
             <div class="first_right_item">
-                <h2 class="first_right_text"></h2>
-                <h4 class="first_right_text"></h4>
-                <p class="first_right_text"></p>
+                <h2>investi</h2>
+                <h3>su te stesso</h3>
+                <h5>L&#39;unica carta di credito che trasforma buone azioni in denaro</h5>
             </div>
             <div class="first_right_item">
                 <button class="first_right_button"></button>
             </div>
         </div>
-    </div>
     <div class="large_wrapper">
         <div class="first_right_icon">
-            <img src="" alt="upper_arrow_icon">
+            <img class="upper_arrow" src="img/Raggruppa 331@2x.png" alt="upper_arrow_icon">
         </div>
     </div>
 </section>
@@ -82,12 +90,18 @@
                 <a href="">
                     <img src="" alt="arrow_left">
                 </a>
-                <div class="third_right_item">
-
+                <div class="third_right_box">
+                    <img src="" alt="card">
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="third_right_box">
+                    <img src="" alt="card">
+                </div>
+                <div class="third_right_box">
+                    <img src="" alt="card">
+                </div>
+                <a href="">
+                    <img src="" alt="arrow_right">
+                </a>
             </div>
         </div>
     </div>

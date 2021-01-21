@@ -1,0 +1,21 @@
+// main
+.first_section {
+    background-color: #2D2D42;
+    width: 100%;
+    .wrapper {
+        @include genericWrapper;
+        padding: 70px;
+    }
+    .large_wrapper {
+        @include largeWrapper;
+        @include rightFlex;
+        padding-bottom: 30px;
+        .upper_arrow {
+            width: 50px;
+        }
+    }
+    .second_graphic_component {
+        width: 50%;
+        height: 50%;
+    }
+}
