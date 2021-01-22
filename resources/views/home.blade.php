@@ -57,16 +57,16 @@
             </div>
         </div>
         <div class="second_section_right_block">
-            <img src="img/pexels-andrea-piacquadio-3823489@2x.png" alt="Picture_of_grandpa">
+            <img src="img/pexels-cut-andrea-piacquadio-3823489@2x.png" alt="Picture_of_grandpa">
         </div>
     </div>
 </section>
 <section class="third_section">
+    <div class="third_higher_block">
+        <h3>Quanto sei buono?</h3>
+        <h1>Le carte</h1>
+    </div>
     <div class="wrapper">
-        <div class="third_higher_block">
-            <h3></h3>
-            <h1></h1>
-        </div>
         <div class="third_main_left_block">
             <div class="third_characteristic">
                 <h2>f</h2>
@@ -77,19 +77,19 @@
             </div>
             <div class="third_main_right_block">
                 <a href="">
-                    <img src="" alt="arrow_left">
+                    <img src="img/Tracciato 79@2x.png" alt="arrow_left">
                 </a>
                 <div class="third_right_box">
-                    <img src="" alt="card">
+                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
                 </div>
                 <div class="third_right_box">
-                    <img src="" alt="card">
+                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
                 </div>
                 <div class="third_right_box">
-                    <img src="" alt="card">
+                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
                 </div>
                 <a href="">
-                    <img src="" alt="arrow_right">
+                    <img src="img/Tracciato 80@2x.png" alt="arrow_right">
                 </a>
             </div>
         </div>
