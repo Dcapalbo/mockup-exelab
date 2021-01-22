@@ -1,5 +1,12 @@
 // responsive 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .second_section {
+        .second_section_right_block {
+            img {
+                max-width: 400px;
+            }
+        }
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
     .first_section {
@@ -16,6 +23,11 @@
             min-width: 300px;
             left: 65%;
             top: 30%;
+        }
+    }
+    .second_section {
+        .second_section_right_block {
+            display: none;
         }
     }
 }
@@ -49,6 +61,19 @@
             min-width: 300px;
             left: 50%;
             top: 20%;
+        }
+        .large_wrapper {
+            position: absolute;
+            bottom: -40%;
+            right: 5%;
+            .upper_arrow {
+                width: 35px;
+            }
+        }
+    }
+    .second_section {
+        .second_section_right_block {
+            display: none;
         }
     }
 }
