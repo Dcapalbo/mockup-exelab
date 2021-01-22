@@ -184,7 +184,7 @@ input {
 .second_section .right_auto_wrapper {
   justify-content: space-between;
   align-items: center;
-  margin-left: auto;
+  margin: auto;
   display: flex;
   height: 100%;
   width: 90%;
@@ -250,7 +250,7 @@ input {
 }
 
 .second_section .second_section_right_block img {
-  max-width: 700px;
+  width: 700px;
 }
 
 .third_section {
@@ -521,6 +521,75 @@ input {
   .second_section .second_section_right_block {
     display: none;
   }
+
+  .second_section .right_auto_wrapper {
+    height: 100%;
+    margin: auto;
+    width: 50%;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 350px;
+    height: 300px;
+    line-height: 45px;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block img,
+  .second_section .right_auto_wrapper .higher_left_block h3,
+  .second_section .right_auto_wrapper .higher_left_block h4 {
+    padding: 15px;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block .higher_left_specific h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block {
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+    padding: 15px;
+    display: flex;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block img {
+    width: 50px;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific {
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: 50px;
+    display: flex;
+    height: 100%;
+    width: 35%;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific h3 {
+    text-transform: capitalize;
+    color: #1FFFC3;
+    font-size: 20px;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific img,
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific h3,
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific h4 {
+    padding: 5px 0px;
+  }
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -576,6 +645,74 @@ input {
 
   .second_section .second_section_right_block {
     display: none;
+  }
+
+  .second_section .right_auto_wrapper {
+    height: 100%;
+    margin: auto;
+    width: 60%;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    line-height: 45px;
+    display: flex;
+    height: 100px;
+    width: 250px;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block img,
+  .second_section .right_auto_wrapper .higher_left_block h3,
+  .second_section .right_auto_wrapper .higher_left_block h4 {
+    padding: 15px;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block .higher_left_specific h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .second_section .right_auto_wrapper .higher_left_block .higher_left_specific .brand_actions {
+    max-width: 320px;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block {
+    flex-direction: column;
+    padding-top: 320px;
+    display: flex;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific {
+    margin-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    line-height: 50px;
+    display: flex;
+    height: 100%;
+    width: 35%;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific h3 {
+    text-transform: capitalize;
+    color: #1FFFC3;
+    font-size: 30px;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 0px;
+    font-size: 30px;
+  }
+
+  .second_section .right_auto_wrapper .lower_left_block .lower_left_specific img {
+    padding: 5px 0px;
   }
 }
 

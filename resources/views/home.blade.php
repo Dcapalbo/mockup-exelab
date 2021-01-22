@@ -32,7 +32,7 @@
         <div class="second_section_left_block">
             <div class="higher_left_block">
                 <div class="higher_left_specific">
-                    <img src="img/Componente 6 – 1.png" alt="img_banco_buone_azioni">
+                    <img class="brand_actions" src="img/Componente 6 – 1.png" alt="img_banco_buone_azioni">
                 </div>
                 <div class="higher_left_specific">
                     <h3>La prima carta di credito</h3>
