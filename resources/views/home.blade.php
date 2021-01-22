@@ -18,7 +18,7 @@
             <h2>investi</h2>
             <h3>su te stesso</h3>
             <h5>L&#39;unica carta di credito che trasforma buone azioni in denaro</h5>
-            <button>Scopri di più</button>
+            <button class="more">Scopri di più</button>
         </div>
     </div>
     <div class="large_wrapper">
@@ -98,7 +98,7 @@
 <section class="fourth_section">
     <div class="lower_wrapper">
         <div class="form_block">
-            <h1>Scopri<br>la tua carta</h1>
+            <h1 id="landing_form">Scopri<br>la tua carta</h1>
             <h5>Compila il form e riceverai per email il link al questionario alla fine del quale riceverai un brochure con tutti i dettagli della tua carta BBA</h5>
             <label for="email">&#42;Campo obbligatorio</label>
             <input type="text" class="form_input" id="nome" name="nome" required minlength="6" maxlength="20" placeholder="Inserisci il tuo nome" value="{{old("name")}}">
