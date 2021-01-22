@@ -62,35 +62,32 @@
     </div>
 </section>
 <section class="third_section">
-    <div class="third_higher_block">
-        <h3>Quanto sei buono?</h3>
-        <h1>Le carte</h1>
-    </div>
-    <div class="wrapper">
-        <div class="third_main_left_block">
-            <div class="third_characteristic">
+    <div class="third_section_container relative">
+        <h2>quanto sei buono&#63;</h2>
+        <h4>le carte</h4>
+        <div class="box">
+            <div class="third_section_main_block">
+                <img class="diamond_img" src="img/Componente 7 – 1.png" alt="diamond">
+                <a class="arrow_left" href="#"><img src="img/Tracciato 79@2x.png" alt=""></a>
+                <div class="box_card_big">
+                    <img class="card_big" src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
+                </div>
+                <div class="box_card_medium">
+                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
+                </div>
+                <div class="box_card_small">
+                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
+                </div>
+                <a class="arrow_right" href="#"><img src="img/Tracciato 80@2x.png" alt=""></a>
+                <img class="angle" src="img/Tracciato 88.png" alt="">
+                <img class="angle_dark" src="img/Tracciato 89.png" alt="">
+            </div>
+            <div class="third_section_inside_block">
                 <h2>f</h2>
-                <h4>Flawless</h4>
+                <h3>Flawless card</h3>
                 <h5>Si ricarica ad ogni tua buona azione</h5>
                 <h5>Ottima per i tuoi acquisti online</h5>
                 <h5>Facile da usare grazie alla BBA App</h5>
-            </div>
-            <div class="third_main_right_block">
-                <a href="">
-                    <img src="img/Tracciato 79@2x.png" alt="arrow_left">
-                </a>
-                <div class="third_right_box">
-                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
-                </div>
-                <div class="third_right_box">
-                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
-                </div>
-                <div class="third_right_box">
-                    <img src="img/8f98b17a63dab87ff1e860939812d903.png" alt="card">
-                </div>
-                <a href="">
-                    <img src="img/Tracciato 80@2x.png" alt="arrow_right">
-                </a>
             </div>
         </div>
     </div>
@@ -98,16 +95,16 @@
 <section class="fourth_section">
     <div class="lower_wrapper">
         <div class="form_block">
-            <h1></h1>
-            <p></p>
+            <h1>Scopri<br>la tua carta</h1>
+            <h5>Compila il form e riceverai per email e ricevi il link al questionario alla fine del quale riceverai un brochure con tutti i dettagli della tua carta BBA</h5>
             <form action="Get">
-                <p>&#42;Campo obbligatorio</p>
+                <h5>&#42;Campo obbligatorio</h5>
                 <input type="text" placeholder="Nome">
-                <p>&#42;Campo obbligatorio</p>
+                <h5>&#42;Campo obbligatorio</h5>
                 <input type="text" placeholder="Cognome">
-                <p>&#42;Campo obbligatorio</p>
+                <h5>&#42;Campo obbligatorio</h5>
                 <input type="text" placeholder="email">
-                <button></button>
+                <button>Invia</button>
             </form>
         </div>
     </div>
