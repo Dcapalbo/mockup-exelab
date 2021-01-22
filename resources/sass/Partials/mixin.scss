@@ -46,8 +46,9 @@
 }
 // color hover
 @mixin colorHover {
+    background-color: #2D2D42;
     transform: scale(1.05);
-    color: crimson;
+    color: #1FFFC3;
     cursor: pointer;
     opacity: 0.8;
 }

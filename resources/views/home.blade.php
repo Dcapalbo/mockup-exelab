@@ -5,17 +5,20 @@
         <div class="higher_first_section">
             <img class="brand_img" src="img/Componente 5 – 1.png" alt="Brand_diamond_img">
         </div>
-        <div class="graphic_component">
+        <div class="first_graphic_component">
             <img class="first_component" src="img/Raggruppa -2@2x.png" alt="higher_graphic_component">
         </div>
+        <div class="third_graphic_component">
+            <img class="third_component" src="img/Raggruppa -1.png" alt="lower_graphic_component">
+        </div>
         <div class="second_graphic_component">
-            <img class="card_img" src="img/CARD_SCREEN.png" alt="credit_card">
+            <img class="second_component" src="img/CARD_SCREEN.png" alt="credit_card">
         </div>
         <div class="first_section_right_block">
             <h2>investi</h2>
             <h3>su te stesso</h3>
             <h5>L&#39;unica carta di credito che trasforma buone azioni in denaro</h5>
-            <button class="first_right_button">Scopri di più</button>
+            <button>Scopri di più</button>
         </div>
     </div>
     <div class="large_wrapper">
@@ -96,16 +99,14 @@
     <div class="lower_wrapper">
         <div class="form_block">
             <h1>Scopri<br>la tua carta</h1>
-            <h5>Compila il form e riceverai per email e ricevi il link al questionario alla fine del quale riceverai un brochure con tutti i dettagli della tua carta BBA</h5>
-            <form action="Get">
-                <h5>&#42;Campo obbligatorio</h5>
-                <input type="text" placeholder="Nome">
-                <h5>&#42;Campo obbligatorio</h5>
-                <input type="text" placeholder="Cognome">
-                <h5>&#42;Campo obbligatorio</h5>
-                <input type="text" placeholder="email">
-                <button>Invia</button>
-            </form>
+            <h5>Compila il form e riceverai per email il link al questionario alla fine del quale riceverai un brochure con tutti i dettagli della tua carta BBA</h5>
+            <label for="email">&#42;Campo obbligatorio</label>
+            <input type="text" class="form_input" id="nome" name="nome" required minlength="6" maxlength="20" placeholder="Inserisci il tuo nome" value="{{old("name")}}">
+            <label for="cognome">&#42;Campo obbligatorio</label>
+            <input type="text" class="form_input" id="cognome" name="cognome" required minlength="6" maxlength="30" placeholder="Inserisci il tuo cognome" value="{{old("cognome")}}">
+            <label for="email">&#42;Campo obbligatorio</label>
+            <input id="last_input" type="text" class="form_input" id="email" name="email" required minlength="15" maxlength="30" placeholder="Inserisci l'email" value="{{old("email")}}">
+            <button>Invia</button>
         </div>
     </div>
 </section>

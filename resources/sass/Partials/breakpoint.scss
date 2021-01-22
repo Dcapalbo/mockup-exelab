@@ -1,0 +1,54 @@
+// responsive 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .first_section {
+        .second_graphic_component {
+            display: none;
+        }
+        .first_section_right_block {
+            transform:translate(-50%, -50%);
+            @include directionFlex;
+            position: absolute;
+            margin-top: 200px;
+            line-height: 50px;
+            text-align: left;
+            min-width: 300px;
+            left: 65%;
+            top: 30%;
+        }
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .first_section {
+        height: 600px;
+        .higher_first_section {
+            position: absolute;
+            top: 0;
+            right: 0;
+            .brand_img {
+                max-width: 100px;
+            }
+        }
+        .second_graphic_component {
+            display: none;
+        }
+        .first_graphic_component {
+            display: none;
+        }
+        .third_graphic_component {
+            display: none;
+        }
+        .first_section_right_block {
+            transform:translate(-50%, -50%);
+            @include directionFlex;
+            position: absolute;
+            margin-top: 200px;
+            line-height: 50px;
+            text-align: left;
+            min-width: 300px;
+            left: 50%;
+            top: 20%;
+        }
+    }
+}

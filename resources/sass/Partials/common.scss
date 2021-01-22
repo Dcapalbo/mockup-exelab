@@ -32,3 +32,11 @@ button {
     outline:none;
     border: none;
 }
+input::placeholder {
+    text-transform: capitalize;
+    color: #fff;
+}
+input {
+    outline:none;
+    border: none;
+}
