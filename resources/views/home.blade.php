@@ -27,39 +27,37 @@
 <section class="second_section">
     <div class="right_auto_wrapper">
         <div class="second_section_left_block">
-            <div class="second_left_block">
-                <div class="higher_left_block">
-                    <div class="higher_left_specific">
-                        <img src="" alt="img_banco_buone_azioni">
-                    </div>
-                    <div class="higher_left_specific">
-                        <h2></h2>
-                    </div>
-                    <div class="higher_left_specific">
-                        <p></p>
-                    </div>
+            <div class="higher_left_block">
+                <div class="higher_left_specific">
+                    <img src="img/Componente 6 – 1.png" alt="img_banco_buone_azioni">
                 </div>
-                <div class="lower_left_block">
-                    <div class="lower_left_specific">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
-                    </div>
-                    <div class="lower_left_specific">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
-                    </div>
-                    <div class="lower_left_specific">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
-                    </div>
+                <div class="higher_left_specific">
+                    <h3>La prima carta di credito</h3>
+                </div>
+                <div class="higher_left_specific">
+                    <h4>Che trasforma le tue buone azioni in denaro per i tuoi progetti</h4>
+                </div>
+            </div>
+            <div class="lower_left_block">
+                <div class="lower_left_specific">
+                    <img src="img/Raggruppa 324@2x.png" alt="">
+                    <h4>Sicura</h4>
+                    <h3>Testata</h3>
+                </div>
+                <div class="lower_left_specific">
+                    <img src="img/Raggruppa 325@2x.png" alt="">
+                    <h4>Veloce</h4>
+                    <h3>Accredito instantaneo</h3>
+                </div>
+                <div class="lower_left_specific">
+                    <img src="img/Raggruppa 326@2x.png" alt="">
+                    <h4>Conveniente</h4>
+                    <h3>Punti premio</h3>
                 </div>
             </div>
         </div>
         <div class="second_section_right_block">
-            <img src="" alt="Picture_of_grandpa">
+            <img src="img/pexels-andrea-piacquadio-3823489@2x.png" alt="Picture_of_grandpa">
         </div>
     </div>
 </section>

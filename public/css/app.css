@@ -26,19 +26,18 @@ h2 {
   font-size: 40px;
 }
 
-h3,
+h4,
 h5 {
   color: #fff;
 }
 
-h3 {
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 40px;
-}
-
 h5 {
   font-size: 20px;
+}
+
+button {
+  outline: none;
+  border: none;
 }
 
 .first_section {
@@ -100,6 +99,13 @@ h5 {
   min-width: 300px;
 }
 
+.first_section .wrapper .first_section_right_block h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+
 .first_section .wrapper .first_section_right_block .first_right_button {
   background-color: #1FFFC3;
   text-transform: uppercase;
@@ -123,5 +129,83 @@ h5 {
 
 .first_section .large_wrapper .upper_arrow {
   width: 35px;
+}
+
+.second_section {
+  background-color: #0075A8;
+  padding: 70px 0px;
+  width: 100%;
+}
+
+.second_section .right_auto_wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  display: flex;
+  height: 100%;
+  width: 90%;
+}
+
+.second_section .right_auto_wrapper .higher_left_block {
+  width: 350px;
+  height: 300px;
+  line-height: 45px;
+}
+
+.second_section .right_auto_wrapper .higher_left_block img,
+.second_section .right_auto_wrapper .higher_left_block h3,
+.second_section .right_auto_wrapper .higher_left_block h4 {
+  padding: 15px;
+}
+
+.second_section .right_auto_wrapper .higher_left_block .higher_left_specific h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+
+.second_section .right_auto_wrapper .lower_left_block {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.second_section .right_auto_wrapper .lower_left_block img {
+  width: 50px;
+}
+
+.second_section .right_auto_wrapper .lower_left_block .lower_left_specific {
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  line-height: 50px;
+  display: flex;
+  height: 100%;
+  width: 35%;
+}
+
+.second_section .right_auto_wrapper .lower_left_block .lower_left_specific h3 {
+  text-transform: capitalize;
+  color: #1FFFC3;
+  font-size: 20px;
+}
+
+.second_section .right_auto_wrapper .lower_left_block .lower_left_specific h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.second_section .right_auto_wrapper .lower_left_block .lower_left_specific img,
+.second_section .right_auto_wrapper .lower_left_block .lower_left_specific h3,
+.second_section .right_auto_wrapper .lower_left_block .lower_left_specific h4 {
+  padding: 5px 0px;
+}
+
+.second_section .second_section_right_block img {
+  width: 800px;
+  transform: translateX(9%);
 }
 
