@@ -68,7 +68,7 @@
     <div class="third_section_container relative">
         <h2>quanto sei buono&#63;</h2>
         <h4>le carte</h4>
-        <div class="box">
+        <div class="green_block">
             <div class="third_section_main_block">
                 <img class="diamond_img" src="img/Componente 7 – 1.png" alt="diamond">
                 <a class="arrow_left" href="#"><img src="img/Tracciato 79@2x.png" alt=""></a>

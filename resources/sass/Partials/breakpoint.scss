@@ -7,6 +7,109 @@
             }
         }
     }
+    .third_section {
+        .green_block {
+            padding: 50px 30px 30px 30px;
+            border: 3px solid #23fdc3;
+            margin-top: 40px;
+            width: 70%;
+            }
+        .third_section_main_block {
+            .diamond_img {
+                transform: translate(-50%, -50%);
+                bottom: 45%;
+                left: 70%;
+                }
+                .arrow_left {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    height: 30px;
+                    width: 20px;
+                    z-index: 1;
+                    left: 50%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }  
+                .arrow_right {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    height: 30px;
+                    width: 20px;
+                    z-index: 1;
+                    left: 110%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                .box_card_big {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    max-width: 750px;
+                    z-index: 3;
+                    width: 45%;
+                    left: 65%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    };
+                }      
+                .box_card_medium {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    max-width: 500px;
+                    opacity: 0.8;
+                    width: 25%;
+                    left: 85%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;  
+                    }
+                }
+                .box_card_small {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    max-width: 300px;
+                    opacity: 0.8;
+                    width: 20%;
+                    left: 100%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                .angle {
+                    position: absolute;
+                    bottom: 2%;
+                    left: 50%;
+                }
+                .angle_dark {
+                    position: absolute;
+                    color: #2B3349;
+                    bottom: 4%;
+                    left: 50%;
+                }
+            }
+            .third_section_inside_block {
+            width: 30%;
+            h5 {
+                margin: 20px 0;
+                line-height: 30px;
+            }
+            h3 {
+                text-transform: capitalize;
+                color: #1FFFC3;
+                font-size: 30px;
+            }
+        }
+    }
 }
 @media screen and (min-width: 769px) and (max-width: 991px) {
     .first_section {
@@ -86,6 +189,109 @@
                         padding: 5px 0px;
                     }
                 }
+            }
+        }
+    }
+    .third_section {
+        .green_block {
+            padding: 20px 30px 30px 30px;
+            border: 3px solid #23fdc3;
+            margin-top: 40px;
+            width: 80%;
+            }
+        .third_section_main_block {
+            .diamond_img {
+                transform: translate(-50%, -50%);
+                bottom: 45%;
+                left: 80%;
+                }
+                .arrow_left {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    height: 30px;
+                    width: 20px;
+                    z-index: 1;
+                    left: 60%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }  
+                .arrow_right {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    height: 30px;
+                    width: 20px;
+                    z-index: 1;
+                    left: 110%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                .box_card_big {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    max-width: 750px;
+                    z-index: 3;
+                    width: 40%;
+                    left: 75%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    };
+                }      
+                .box_card_medium {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    max-width: 500px;
+                    opacity: 0.8;
+                    width: 20%;
+                    left: 90%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;  
+                    }
+                }
+                .box_card_small {
+                    transform: translate(-50%, -50%);
+                    position: absolute;
+                    max-width: 300px;
+                    opacity: 0.8;
+                    width: 15%;
+                    left: 100%;
+                    top: 60%;
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+                .angle {
+                    position: absolute;
+                    bottom: 2%;
+                    left: 50%;
+                }
+                .angle_dark {
+                    position: absolute;
+                    color: #2B3349;
+                    bottom: 4%;
+                    left: 50%;
+                }
+            }
+            .third_section_inside_block {
+            width: 30%;
+            h5 {
+                margin: 20px 0;
+                line-height: 30px;
+            }
+            h3 {
+                text-transform: capitalize;
+                color: #1FFFC3;
+                font-size: 30px;
             }
         }
     }
@@ -218,6 +424,67 @@
                         padding: 5px 0px;
                     }
                 }
+            }
+        }
+    }
+    .third_section {
+        .green_block {
+            justify-content: center;
+            align-items: center;
+            padding: 10px 15px 15px 15px;
+            border: 3px solid #23fdc3;
+            margin-top: 40px;
+            display: flex;
+            width: 100%;
+            }
+        .third_section_main_block {
+            .diamond_img {
+                transform: translate(-50%, -50%);
+                bottom: 60%;
+                width: 60px;
+                left: 100%;
+                }
+                .arrow_left {
+                    display: none;
+                }  
+                .arrow_right {
+                    display: none;
+                }
+                .box_card_big {
+                    display: none;
+                }      
+                .box_card_medium {
+                    display: none;
+                }
+                .box_card_small {
+                    display: none;
+                }
+                .angle {
+                    position: absolute;
+                    width: 50px;
+                    bottom: 4%;
+                    left: 70%;
+                }
+                .angle_dark {
+                    position: absolute;
+                    color: #2B3349;
+                    width: 50px;
+                    bottom: 5%;
+                    left: 70%;
+                }
+            }
+            .third_section_inside_block {
+            width: 30%;
+            h5 {
+                text-align: center;
+                line-height: 30px;
+                margin: 20px 0;
+            }
+            h3 {
+                text-transform: capitalize;
+                text-align: center;
+                color: #1FFFC3;
+                font-size: 30px;
             }
         }
     }

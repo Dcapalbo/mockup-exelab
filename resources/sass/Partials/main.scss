@@ -153,7 +153,6 @@
 .third_section {
     background: linear-gradient(#27374f, #2d2d42);
     position: relative;
-    overflow-x: hidden;
     .third_section_container {
         width: 75%;
         height: 100%;
@@ -182,15 +181,10 @@
     top: 10%;
     left: 0;
   }
-  .third_section h3 {
-    letter-spacing: 2px;
-    font-size: 48pt;
-    color: #fff;
-  }
   .relative {
     position: relative;
   }
-  .box {
+  .green_block {
     padding: 150px 100px 100px 100px;
     border: 3px solid #23fdc3;
     margin-top: 40px;
